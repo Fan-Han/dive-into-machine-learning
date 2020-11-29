@@ -7,11 +7,19 @@
 
 I learned Python by hacking first, and getting serious *later.* I wanted to do this with Machine Learning. If this is your style, join me in getting a bit ahead of yourself.
 
-_Note:_ There are several fields within "Data" and Machine Learning is just one. It's good to know the context: [What is the difference between Data Analytics, Data Analysis, Data Mining, Data Science, Machine Learning, and Big Data?](http://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1)
+<br/>
 
-# Get your feet wet!
+## Does your employer support your growth?
 
-I suggest you get your feet wet ASAP. You'll boost your confidence.
+If you're reading this guide, you like to learn by doing. Your employer should give you projects in line with your strengths and interests. If not, you owe it to yourself to move on!
+
+<a href="https://triplebyte.com/a/POPZ5Di/diveintomachinelearning"><img align="right" src="https://user-images.githubusercontent.com/2420688/67127456-3f4b1700-f1ae-11e9-8cad-371212258d5c.png" width="300"  alt="Triplebyte"></a> <a href="https://triplebyte.com/a/POPZ5Di/diveintomachinelearning">Take the Triplebyte coding quiz and **let the jobs come to you. Remote OK!** You can support <i>Dive Into Machine Learning</i> by using my link.</a>
+
+<br/>
+
+# Let's get started
+
+I suggest you get your feet wet to start. You'll boost your confidence.
 
 ## Tools you'll need
 
@@ -75,6 +83,11 @@ When you work on a real Machine Learning problem, you should focus your efforts 
 (Chart inspired by a slide from [Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring"](https://www.youtube.com/watch?v=TYVCVzEJhhQ).)
 
 [Do Simple Things]: http://wiki.c2.com/?DoSimpleThings
+
+## Jargon note
+
+* [What is the difference between Data Analytics, Data Analysis, Data Mining, Data Science, Machine Learning, and Big Data?](http://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1) 
+* Another handy term: [_**Data Engineering**_](https://towardsdatascience.com/who-is-a-data-engineer-how-to-become-a-data-engineer-1167ddc12811?gi=67df10cc32ea), which may involve or support Machine Learning, but is not limited to Machine Learning.
 
 ## Just about time for a break...
 
@@ -185,10 +198,10 @@ You'll want to get more familiar with Pandas.
 * Here are some docs I found especially helpful as I continued learning:
 	* [Cookbook](http://pandas.pydata.org/pandas-docs/stable/cookbook.html)
 	* [Data Structures](http://pandas.pydata.org/pandas-docs/stable/dsintro.html), esp. [DataFrame](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) section
-	* [Reshaping by pivoting DataFrames](http://pandas.pydata.org/pandas-docs/version/0.15.0/reshaping.html)
+	* [Reshaping by pivoting DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html)
 	* [Computational tools](http://pandas.pydata.org/pandas-docs/stable/computation.html) and [StackExchange thread: "What is covariance in plain language?"](https://stats.stackexchange.com/questions/29713/what-is-covariance-in-plain-language)
 	* [Group By (split, apply, and combine DataFrames)](http://pandas.pydata.org/pandas-docs/stable/groupby.html)
-	* [Visualizing your DataFrames](http://pandas.pydata.org/pandas-docs/version/0.15.0/visualization.html)
+	* [Visualizing your DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 * Bookmarks for later when you need to scale
 	* [The `odo` library](http://odo.readthedocs.io/) for converting between _many_ formats.
 	* [`dask`](https://dask.org/): A Pandas-like interface, but for larger-than-memory data and "under the hood" parallelism. Very interesting, but only needed when you're getting advanced. 
@@ -212,6 +225,8 @@ I'm not repeating the materials mentioned above, but here are some other Data Sc
 * [Data Science Workflow: Overview and Challenges](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext) (read the article *and also* the comment by Joseph McCarthy)
 * Fun little IPython Notebook: [Web Scraping Indeed.com for Key Data Science Job Skills](http://nbviewer.jupyter.org/github/jmsteinw/Notebooks/blob/master/IndeedJobs.ipynb)
 * Swami Chandrasekaran's ["Becoming a Data Scientist"](http://nirvacana.com/thoughts/becoming-a-data-scientist/) is a concise, printable picture of a data science curriculum
+* [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) is one of the best entry level book that you can find on Internet.
+
 
 ## Bayesian Statistics and Machine Learning
 
@@ -341,24 +356,18 @@ Maybe this is a way to check your progress: ask yourself, does Deep Learning see
 
 In any case, when you decide you're ready to dive into Deep Learning, here are some helpful resources.
 
+* **[Dive into Deep Learning](https://d2l.ai/) - An interactive book about deep learning
 * **["Have Fun With [Deep] Learning" by David Humphrey.](https://github.com/humphd/have-fun-with-machine-learning)** This is an excellent way to "get ahead of yourself" and hack-first. Then you will feel excited to move onto...
 *  **[Prof. Andrew Ng's](https://www.andrewng.org/about/) [courses on Deep Learning](https://www.coursera.org/specializations/deep-learning)!** There five courses, as part of the [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning). These courses are part of his new venture, [deeplearning.ai](https://www.deeplearning.ai)
 * **[Machine Learning Crash Course from Google.](https://developers.google.com/machine-learning/crash-course/)** Google's fast-paced, practical introduction to machine learning which covers building deep neural networks with TensorFlow.
 * **[_Deep Learning_](http://www.deeplearningbook.org/), a free book published MIT Press.** By Ian Goodfellow, Yoshua Bengio and Aaron Courville
 * [YerevaNN's Deep Learning Guide](http://yerevann.com/a-guide-to-deep-learning/)
 * [Quora: "What are the best ways to pick up Deep Learning skills as an engineer?"](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer) — answered by Greg Brockman (Co-Founder & CTO at OpenAI, previously CTO at Stripe)
-* [Sonnet](https://github.com/deepmind/sonnet) - a python library built on top of TensorFlow for building complex neural networks. Made by Google DeepMind.
-* [Build a deep learning model in 15 minutes](https://tech.instacart.com/how-to-build-a-deep-learning-model-in-15-minutes-a3684c6f71e) using [Lore](https://github.com/instacart/lore/).
+* [Creative Applications of Deep Learning with Tensorflow](https://github.com/pkmital/CADL)
+* [Dive into Deep Learning](https://d2l.ai/) - An interactive book about deep learning
+
 
 ## "Big" Data?
-
-Scaling data analysis is a familiar problem now, and there's no shortage of ways to address it. [Beware needless hype and companies selling you flashy, proprietary solutions.](http://www.john-foreman.com/blog/surviving-data-science-at-the-speed-of-hype) You can do it all with open-source tools. Even if "buy" instead of "build," you may want to buy from vendors who use known good stacks. No news here.
-
-There are [other lists of Awesome Machine Learning tools](https://github.com/josephmisiti/awesome-machine-learning), so I won't re-do all that. But in the Big Data section, I would be remiss if I didn't mention...
-
-* **[Apache Spark.](https://spark.apache.org/mllib/)** "MLlib is Apache Spark's scalable machine learning library."
-	* Aside from the scalability, Spark has great APIs. And what's more, [Spark has DataFrames and easy co-operability with pandas!](https://databricks.com/blog/2015/02/17/introducing-dataframes-in-spark-for-large-scale-data-science.html)
-	* Berkeley has [a course on Scalable Machine Learning, focusing on Apache Spark.](https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VOC70VPF_lQ)
 
 If you are working with data-intensive applications at all, I'll recommend this book:
 
@@ -382,7 +391,6 @@ Big Data Volume and Variety_](https://www.tamr.com/landing-pages/getting-data-ri
     * Also, consider [Lore](https://github.com/instacart/lore/). "Lore is a python framework to make machine learning [especially deep learning] approachable for Engineers and maintainable for Data Scientists." 
 * For Machine-Learning libraries that might not be on PyPI, GitHub, etc., there's [MLOSS (Machine Learning Open Source Software)](http://mloss.org/software/). Seems to feature many academic libraries.
 * Bookmark [Julia.jl](https://github.com/svaksha/Julia.jl/blob/master/AI.md#machine-learning), a curated list of [awesome](https://github.com/bayandin/awesome-awesomeness) libraries and software in the Julia language - with a section on Machine Learning.
-* [CreativeAI.net](http://www.creativeai.net/). OK not exactly about _libraries_, but this is often intriguing, and worth subscribing to  ... warning, it's easy to get sucked in :)
 
 ----
 
